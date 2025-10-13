@@ -1,0 +1,64 @@
+# ------------------------------------
+# Sistema Operativo - macOS
+# ------------------------------------
+.DS_Store
+
+# ------------------------------------
+# Build
+# ------------------------------------
+/target/
+build/
+
+# ------------------------------------
+# Maven Wrapper
+# ------------------------------------
+.mvn/wrapper/maven-wrapper.jar
+
+# ------------------------------------
+# IDEs
+# ------------------------------------
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## VS Code
+.vscode/
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## Spring Tool Suite (STS)
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ------------------------------------
+# Java-specific
+# ------------------------------------
+*.class
+*.log
+*.jar
+*.war
+
+# ------------------------------------
+# Logs / Misc
+# ------------------------------------
+*.log
+*.tmp
+*.bak
+
+# ------------------------------------
+# Exceptions (si alguna carpeta target o build está dentro del src, no la ignores)
+/src/**/target/
+/src/**/build/
