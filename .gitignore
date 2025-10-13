@@ -62,3 +62,5 @@ build/
 # Exceptions (si alguna carpeta target o build está dentro del src, no la ignores)
 /src/**/target/
 /src/**/build/
+
+HELP.md
