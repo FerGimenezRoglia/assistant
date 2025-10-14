@@ -9,6 +9,4 @@ import java.util.List;
 public interface KnowledgeEntryRepository extends JpaRepository<KnowledgeEntry, Long> {
     List<KnowledgeEntry> findByApprovedTrue();
     List<KnowledgeEntry> findByApprovedFalse();
-
-
 }
