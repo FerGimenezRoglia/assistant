@@ -21,5 +21,5 @@ public class KnowledgeEntry {
     private String answer;
 
     @Column(nullable = false)
-    private boolean approved = false;  // Nuevo campo: controla si la FAQ está aprobada
+    private Boolean approved = false;
 }

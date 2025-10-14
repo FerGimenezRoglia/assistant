@@ -53,7 +53,9 @@ public class KnowledgeEntryServiceImpl implements KnowledgeEntryService {
             existingEntry.setAnswer(updatedEntry.getAnswer());
         }
 
-        existingEntry.setApproved(updatedEntry.isApproved());
+        if (updatedEntry.getApproved() != null) {
+            existingEntry.setApproved(updatedEntry.getApproved());
+        }
 
         return repository.save(existingEntry);
     }
